@@ -101,7 +101,6 @@ var swiper = new Swiper(".portfolio_container", {
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
-        mousewheelControl: false,
     },
     pagination: {
         el: ".swiper-pagination",

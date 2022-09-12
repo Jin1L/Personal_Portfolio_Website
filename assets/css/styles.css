@@ -359,6 +359,16 @@ img {
     background-color: transparent;
     color: var(--first-color-alt);
 }
+
+.button--white{
+    background-color: #ffffff;
+    color: var(--first-color);
+    margin-bottom: var(--mb-2-5);
+}
+
+.button--white:hover{
+    background-color: #ffffff;
+}
 /*==================== ABOUT ====================*/
 .about_img{
     width: 200px;
@@ -732,6 +742,27 @@ img {
     outline: none;
 }
 /*==================== PROJECT IN MIND ====================*/
+.project{
+    text-align: center;
+}
+
+.project_bg{
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+
+.project_title{
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project_description{
+    margin-bottom: var(--mb-1-5);
+}
+
+.project_title, .project_description{
+    color: #ffffff;
+}
 
 
 /*==================== TESTIMONIAL ====================*/
