@@ -94,18 +94,20 @@ modelCloses.forEach((modelClose) =>{
     })
 })
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiper = new Swiper(".portfolio_container", {
-    cssMode: true,
+var swiper = new Swiper(".portfolio_container", {
+    //cssMode: true,
     loop: true,
-
+    mousewheelControl: false,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+        mousewheelControl: false,
     },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
+
 });
 
 /*==================== TESTIMONIAL ====================*/
