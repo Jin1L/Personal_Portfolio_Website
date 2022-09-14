@@ -94,7 +94,7 @@ modelCloses.forEach((modelClose) =>{
     })
 })
 /*==================== PORTFOLIO SWIPER  ====================*/
-var swiper = new Swiper(".portfolio_container", {
+var swiperPortfolio = new Swiper(".portfolio_container", {
     //cssMode: true,
     loop: true,
     mousewheelControl: false,
@@ -110,7 +110,23 @@ var swiper = new Swiper(".portfolio_container", {
 });
 
 /*==================== TESTIMONIAL ====================*/
+var swiperTestimonial = new Swiper(".testimonial_container", {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 48,
 
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+    },
+
+    breakpoints:{
+        568:{
+            slidesPerView: 2,
+        }
+    }
+});
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
