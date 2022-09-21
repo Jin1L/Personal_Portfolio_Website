@@ -880,10 +880,11 @@ img {
 
 .send-email{
     width: 25%;
-    border-color: hsl(var(--hue-color), 69%, 61%);
+    border-color: #ffffff;
     background-color: #ffffff;
     color: var(--first-color-second);
     font-weight: var(--font-semi-bold);
+    box-shadow: 0 -1.5px 4px rgba(0,0,0,.15);;
 }
 
 .send-email:hover{
