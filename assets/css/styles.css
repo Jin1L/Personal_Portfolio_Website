@@ -69,7 +69,7 @@
 }
 
 /*========== Variables Dark theme ==========*/
-body.dark-theme{
+body.dark-theme {
     --first-color-second: hsl(var(--hue-color), 30%, 8%);
     --title-color: hsl(var(--hue-color), 8%, 98%);
     --text-color: hsl(var(--hue-color), 8%, 75%);
@@ -880,8 +880,14 @@ img {
 
 .send-email{
     width: 25%;
-    border-color: white;
-    background-color: var(--first-color-second);
+    border-color: hsl(var(--hue-color), 69%, 61%);
+    background-color: #ffffff;
+    color: var(--first-color-second);
+    font-weight: var(--font-semi-bold);
+}
+
+.send-email:hover{
+    background-color: #ffffff;
 }
 /*==================== FOOTER ====================*/
 .footer{
@@ -1043,6 +1049,9 @@ img {
         grid-template-columns: .6fr;
         justify-content: center;
     }
+    .send-email{
+        width: 30%
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -1158,6 +1167,9 @@ img {
     .project_data{
         padding-top: .8rem;
     }
+    .send-email{
+        width: 28%
+    }
     .footer_container{
         grid-template-columns: repeat(3, 1fr);
     }
@@ -1210,6 +1222,9 @@ img {
     }
     .contact_inputs{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .send-email{
+        width: 48%
     }
 
 }
