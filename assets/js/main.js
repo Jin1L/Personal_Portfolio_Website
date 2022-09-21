@@ -95,9 +95,9 @@ modelCloses.forEach((modelClose) =>{
 })
 /*==================== PORTFOLIO SWIPER  ====================*/
 var swiperPortfolio = new Swiper(".portfolio_container", {
-    //cssMode: true,
+    cssMode: true,
     loop: true,
-    mousewheelControl: false,
+    //mousewheelControl: false,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
